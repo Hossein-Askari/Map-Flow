@@ -6,8 +6,8 @@ python==3.7\
 torch==1.0\
 tqdm==4.31\
 For invertible layers, we used FrEIA library\
-pip install git+https://github.com/VLL-HD/FrEIA.git\
-git clone https://github.com/VLL-HD/FrEIA.git\
+pip install git+https://github.com/VLL-HD/FrEIA.git  \
+git clone https://github.com/VLL-HD/FrEIA.git  \
 cd FrEIA\
 ##  python setup.py
 ### Data
