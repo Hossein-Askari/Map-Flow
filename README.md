@@ -5,12 +5,10 @@ Pytorch implementation of our work.
 python==3.7\
 torch==1.0\
 tqdm==4.31\
-
-For invertible layers, we used FrEIA library
-pip install git+https://github.com/VLL-HD/FrEIA.git
-git clone https://github.com/VLL-HD/FrEIA.git
-cd FrEIA
-
+For invertible layers, we used FrEIA library\
+pip install git+https://github.com/VLL-HD/FrEIA.git\
+git clone https://github.com/VLL-HD/FrEIA.git\
+cd FrEIA\
 ##  python setup.py
 ### Data
 Go to the https://github.com/RuiShu/dirt-t/tree/master/data and use download_mnist.py and download_svhn.py to get required .mat files. Place them under data/mnist/ and data/svhn/ folders. Then running python mfl_train.py should work.
